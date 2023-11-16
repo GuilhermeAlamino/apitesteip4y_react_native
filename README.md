@@ -20,7 +20,7 @@ Regra de negocios:
 - Node 16 ou superior V20.9.0 
 - NPM V9.6.5
 - Android Studio
-- Configuração do Banco de Dados
+- Configuração do ip
 
 É necessário configurar os src/service/Api se estiver usando o Android Emulator o IP inicial de localhost é 10.0.2.2 e a porta do back-end:
 
