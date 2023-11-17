@@ -38,7 +38,7 @@ Regra de negocios:
 
 ## Próximos Passos (melhorias)
 
-- Redux -> Gerenciamento de estado mais combusta.
+- Redux -> Gerenciamento de estado mais robusta.
 
 - Async Storage ->  Alternativa de Armazenamento Local semelhante (localstorage)
 

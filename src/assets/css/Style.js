@@ -16,6 +16,7 @@ const Style = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 20,
+    color: '#000'
   },
   buttonContainer: {
     flexDirection: 'column',
@@ -38,7 +39,7 @@ const Style = StyleSheet.create({
     marginBottom: 10,
   },
   buttonText: {
-    color: '#fff',
+    color: '#000',
     fontWeight: 'bold',
     textAlign: 'center',
   },
@@ -49,6 +50,7 @@ const Style = StyleSheet.create({
     marginBottom: 10,
     paddingLeft: 10,
     width: '100%',
+    color: '#000',
   },
   picker: {
     height: 40,

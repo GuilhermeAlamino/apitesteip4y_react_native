@@ -1,4 +1,13 @@
 {
   "name": "apitesteip4y",
-  "displayName": "apitesteip4y"
+  "displayName": "apitesteip4y",
+  "expo": {
+    "name": "apitesteip4y",
+    "slug": "apitesteip4y",
+    "extra": {
+      "eas": {
+        "projectId": "b69f57b8-c695-458f-9f61-5669e3168506"
+      }
+    }
+  }
 }
