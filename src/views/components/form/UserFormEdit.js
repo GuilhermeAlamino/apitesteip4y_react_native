@@ -140,6 +140,7 @@ const UserFormEdit = ({ userId }) => {
         type={'cpf'}
         value={cpf}
         onChangeText={(text) => setCPF(text)}
+        placeholderTextColor="#000"
       />
       {errorMessages.cpf && <Text style={Style.errorText}>{errorMessages.cpf[0]}</Text>}
 
@@ -148,6 +149,7 @@ const UserFormEdit = ({ userId }) => {
         placeholder="Nome"
         value={nome}
         onChangeText={setNome}
+        placeholderTextColor="#000"
       />
       {errorMessages.nome && <Text style={Style.errorText}>{errorMessages.nome[0]}</Text>}
 
@@ -156,6 +158,7 @@ const UserFormEdit = ({ userId }) => {
         placeholder="Sobrenome"
         value={sobrenome}
         onChangeText={setSobrenome}
+        placeholderTextColor="#000"
       />
       {errorMessages.sobrenome && <Text style={Style.errorText}>{errorMessages.sobrenome[0]}</Text>}
 
@@ -168,6 +171,7 @@ const UserFormEdit = ({ userId }) => {
         }}
         value={dataNascimento}
         onChangeText={(text) => setDataNascimento(text)}
+        placeholderTextColor="#000"
       />
       {errorMessages.dataNascimento && <Text style={Style.errorText}>{errorMessages.dataNascimento[0]}</Text>}
 
@@ -176,6 +180,7 @@ const UserFormEdit = ({ userId }) => {
         placeholder="E-mail"
         value={email}
         onChangeText={setEmail}
+        placeholderTextColor="#000"
       />
       {errorMessages.email && <Text style={Style.errorText}>{errorMessages.email[0]}</Text>}
 
