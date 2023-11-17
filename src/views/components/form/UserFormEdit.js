@@ -183,7 +183,7 @@ const UserFormEdit = ({ userId }) => {
         style={Style.generoButton}
         onPress={() => setModalVisible(true)}
       >
-        <Text>{genero || 'Selecione o Gênero'}</Text>
+        <Text style={Style.titleSelect}>{genero || 'Selecione o Gênero'}</Text>
       </TouchableOpacity>
       {errorMessages.genero && <Text style={Style.errorText}>{errorMessages.genero[0]}</Text>}
       {successMessage ? <Text style={Style.successText}>{successMessage}</Text> : null}

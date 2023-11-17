@@ -12,7 +12,7 @@ Regra de negocios:
 
 - Criar Opção de editar cliente.
 
-- Criar Validações de campos obrigatorios ( Nome, CPF, Sobrenome, Data de Nascimento, E-mail, Gênero).
+- Criar Validações de campos obrigatorios ( Nome, Sobrenome, Data de Nascimento, E-mail, Gênero).
 
 ## Requisitos que estou utilizando
 
@@ -38,7 +38,7 @@ Regra de negocios:
 
 ## Próximos Passos (melhorias)
 
-- Redux -> Gerenciamento de estado mais robusta.
+- Redux -> Gerenciamento de estado mais combusta.
 
 - Async Storage ->  Alternativa de Armazenamento Local semelhante (localstorage)
 

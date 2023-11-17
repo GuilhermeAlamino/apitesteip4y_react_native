@@ -31,6 +31,9 @@ const Style = StyleSheet.create({
     width: '100%',
     marginBottom: 10,
   },
+  titleSelect: {
+    color: '#000',
+  },
   buttonRecomecar: {
     backgroundColor: '#f4511e',
     padding: 15,
@@ -39,18 +42,19 @@ const Style = StyleSheet.create({
     marginBottom: 10,
   },
   buttonText: {
-    color: '#000',
+    color: '#fff',
     fontWeight: 'bold',
     textAlign: 'center',
   },
   input: {
     height: 40,
-    borderColor: 'gray',
+    borderColor: '#000',
     borderWidth: 1,
     marginBottom: 10,
     paddingLeft: 10,
     width: '100%',
     color: '#000',
+    backgroundColor: "white"
   },
   picker: {
     height: 40,
@@ -58,12 +62,13 @@ const Style = StyleSheet.create({
   },
   generoButton: {
     height: 40,
-    borderColor: 'gray',
+    borderColor: '#000',
     borderWidth: 1,
     marginBottom: 10,
     justifyContent: 'center',
     paddingLeft: 10,
     width: '100%',
+    backgroundColor: "white",
   },
   modalContainer: {
     flex: 1,

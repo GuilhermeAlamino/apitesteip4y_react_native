@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity,Modal, FlatList, TextInput } from 'react-native';
+import { View, Text, TouchableOpacity, Modal, FlatList, TextInput } from 'react-native';
 import { TextInputMask } from 'react-native-masked-text';
 import Style from '../../../assets/css/Style';
 import Api from '../../../service/Api';
@@ -141,7 +141,7 @@ const UserFormCreate = () => {
         style={Style.generoButton}
         onPress={() => setModalVisible(true)}
       >
-        <Text>{genero || 'Selecione o Gênero'}</Text>
+        <Text style={Style.titleSelect}>{genero || 'Selecione o Gênero'}</Text>
       </TouchableOpacity>
       {errorMessages.genero && <Text style={Style.errorText}>{errorMessages.genero[0]}</Text>}
       {successMessage ? <Text style={Style.successText}>{successMessage}</Text> : null}
