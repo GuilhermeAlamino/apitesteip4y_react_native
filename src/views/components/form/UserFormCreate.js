@@ -84,7 +84,7 @@ const UserFormCreate = () => {
         setModalVisible(false);
       }}
     >
-      <Text>{item}</Text>
+      <Text style={Style.generoItemText}>{item}</Text>
     </TouchableOpacity>
   );
 

@@ -79,8 +79,12 @@ const Style = StyleSheet.create({
     backgroundColor: '#fff',
     padding: 15,
     borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
+    borderBottomColor: '#000',
     width: '100%',
+    color: "#000"
+  },
+  generoItemText: {
+    color: 'black',
   },
   closeButton: {
     backgroundColor: '#006400',
