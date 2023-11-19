@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, Modal, StyleSheet } from 'react-native';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
-import axios from 'axios';
 import UserCard from './components/card/UserCard';
 import ButtonMenu from './components/button/ButtonMenu';
+import Api from '../service/Api';
 
 const UserIndex = () => {
   const navigation = useNavigation();
@@ -24,7 +24,7 @@ const UserIndex = () => {
 
   const fetchUserData = async () => {
     try {
-      const response = await axios.get('http://10.0.2.2:8001/api/teste.ip4y/');
+      const response = await Api.get('/');
       const data = response.data.data;
       console.log(data);
 
@@ -50,7 +50,7 @@ const UserIndex = () => {
 
   const confirmDelete = async () => {
     try {
-      await axios.delete(`http://10.0.2.2:8001/api/teste.ip4y/delete/${userIdToDelete}`);
+      await Api.delete(`/delete/${userIdToDelete}`);
       hideModal();
 
       fetchUserData();
@@ -112,7 +112,8 @@ const styles = StyleSheet.create({
   },
   modalText: {
     marginBottom: 20,
-    fontSize: 17
+    fontSize: 17,
+    color:"#000"
   },
   button: {
     width: '100%',
